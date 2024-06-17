@@ -17,11 +17,11 @@ LABEL VERSION="${BUILD_VERSION}"
 LABEL BRANCH="${BRANCH}"
 LABEL PROJECT_NAME="${PROJECT_NAME}"
 
-COPY ./ /app/
+COPY ./app /app/
 RUN \
     apk update && \
     apk add --no-cache git curl build-base tcl tk && \
-    mkdir -p /app /data && \
+    mkdir -p /app && \
     pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r /app/setup/requirements.txt && \
     sed -i "s/APP_VERSION = \"1.0.0-snapshot\"/APP_VERSION = \"${APP_VERSION}\"/g" "/app/metrics/config.py" && \
@@ -31,8 +31,5 @@ RUN \
 VOLUME ["/data"]
 VOLUME ["/config"]
 WORKDIR /app
-
-# discordpy upgrade 2.0
-HEALTHCHECK CMD discordhealthcheck || exit 1
 
 CMD ["python", "-u", "/app/main.py"]
