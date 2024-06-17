@@ -1,0 +1,232 @@
+include_empty: false
+emulators:
+  - name: Atari 2600
+    paths:
+      - atari2600
+    globs:
+      - '*.zip'
+      - '*.bin'
+  - name: Atari 7800
+    paths:
+      - atari7800
+    globs:
+      - '*.zip'
+      - '*.a78'
+  - name: Atari Lynx
+    paths:
+      - atarilynx
+    globs:
+      - '*.zip'
+      - '*.lnx'
+  - name: ColecoVision
+    paths:
+      - colecovision
+      - coleco
+    globs:
+      - '*.zip'
+      - '*.bin'
+  - name: Commodore 64
+    paths:
+      - c64
+    globs:
+      - '*.zip'
+      - '*.d64'
+  - name: Dreamcast
+    paths:
+      - dreamcast
+    globs:
+      - '*.zip'
+      - '*.cdi'
+  - name: Famicom Disk
+    paths:
+      - fds
+    globs:
+      - '*.zip'
+      - '*.fds'
+  - name: GameGear
+    paths:
+      - gamegear
+      - gg
+      - ggh
+    globs:
+      - '*.zip'
+      - '*.gg'
+  - name: Gameboy
+    paths:
+      - gb
+    globs:
+      - '*.zip'
+      - '*.gb'
+  - name: Gameboy Advance
+    paths:
+      - gba
+      - gbah
+    globs:
+      - '*.zip'
+      - '*.gba'
+  - name: Gameboy Color
+    paths:
+      - gbc
+    globs:
+      - '*.zip'
+      - '*.gbc'
+  - name: Genesis
+    paths:
+      - genesis
+      - megadrive
+      - megadrive-japan
+      - genh
+    globs:
+      - '*.zip'
+      - '*.md'
+      - '*.bin'
+  - name: MAME
+    paths:
+      - fba
+      - cave
+      - cps1
+      - cps2
+      - cps3
+      - mame
+    globs:
+      - '*.zip'
+  - name: Master System
+    paths:
+      - mastersystem
+      - sms
+    globs:
+      - '*.zip'
+      - '*.sms'
+  - name: MSX
+    paths:
+      - msx
+    globs:
+      - '*.zip'
+      - '*.rom'
+  - name: MSX2
+    paths:
+      - msx2
+    globs:
+      - '*.zip'
+      - '*.rom'
+  - name: N64
+    paths:
+      - n64
+    globs:
+      - '*.zip'
+      - '*.n64'
+  - name: NeoGeo
+    paths:
+      - neogeo
+    globs:
+      - '*.zip'
+      - '*.neo'
+  - name: NES
+    paths:
+      - nes
+    globs:
+      - '*.zip'
+      - '*.nes'
+  - name: NeoGeo Pocket
+    paths:
+      - neogeopocket
+      - ngp
+    globs:
+      - '*.zip'
+      - '*.ngp'
+  - name: NeoGeo Pocket Color
+    paths:
+      - neogeopocketcolor
+      - ngpcolor
+      - ngpc
+    globs:
+      - '*.zip'
+      - '*.ngc'
+  - name: PC Engine
+    paths:
+      - pce
+      - tg16
+    globs:
+      - '*.zip'
+      - '*.pce'
+  - name: PlayStation
+    paths:
+      - psx
+    globs:
+      - '*.zip'
+      - '*.bin'
+      - '*.img'
+      - '*.iso'
+  - name: PSP
+    paths:
+      - psp
+      - pspminis
+    globs:
+      - '*.zip'
+      - '*.iso'
+      - '*.cso'
+  - name: Saturn
+    paths:
+      - saturn
+    globs:
+      - '*.zip'
+      - '*.iso'
+  - name: Sega 32X
+    paths:
+      - sega32x
+      - 32x
+    globs:
+      - '*.zip'
+      - '*.32x'
+  - name: Sega CD
+    paths:
+      - segacd
+      - scd
+    globs:
+      - '*.zip'
+      - '*.iso'
+  - name: Super Famicom
+    paths:
+      - sfc
+    globs:
+      - '*.zip'
+      - '*.sfc'
+  - name: Sega SG-1000
+    paths:
+      - sg1000
+      - sg1k
+      - sg-1000
+      - sc-3000
+      - sc3000
+      - sc3k
+      - sgfx
+      - sgfx
+    globs:
+      - '*.zip'
+      - '*.sg'
+  - name: SNES
+    paths:
+      - snes
+    globs:
+      - '*.zip'
+      - '*.smc'
+  - name: TurboGrafx-16
+    paths:
+      - tg16
+      - pce
+    globs:
+      - '*.zip'
+      - '*.pce'
+  - name: Ventrex
+    paths:
+      - vectrex
+    globs:
+      - '*.zip'
+      - '*.vec'
+  - name: Virtual Boy
+    paths:
+      - virtualboy
+      - vb
+    globs:
+      - '*.zip'
+      - '*.vb'

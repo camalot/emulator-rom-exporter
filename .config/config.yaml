@@ -1,0 +1,5 @@
+---
+include_empty: false
+paths:
+  - D:\ROMS\roms
+emulators: []
